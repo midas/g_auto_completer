@@ -1,32 +1,41 @@
 = g_auto_completer
 
-* FIX (url)
+http://github.com/midas/g_auto_completer/tree/master
+
 
 == DESCRIPTION:
 
-FIX (describe your package)
+A Guilded (http://github.com/midas/guilded/tree/master) Rails component that generates an auto complete
+text box.
 
-== FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+== FEATURES:
 
-== SYNOPSIS:
-
-  FIX (code sample of usage)
-
-== REQUIREMENTS:
-
-* FIX (list of requirements)
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+  sudo gem install midas-g_auto_completer
+
+
+== USAGE:
+
+
+
+
+== REQUIREMENTS:
+
+* Rails >= 2.2.0
+* Guilded >= 0.1.4 (http://github.com/midas/guilded/tree/master)
+
+
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2009 FIXME full name
+Copyright (c) 2009 C. Jason Harrelson (midas) (excluding the work of 
+Dylan Verheul, Dan G. Switzer, Anjesh Tuladhar, Jörn Zaefferer, Widi 
+Harsojo and Guillermo Rauch in th ejQuery plugins)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
