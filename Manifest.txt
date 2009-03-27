@@ -1,0 +1,13 @@
+History.txt
+Manifest.txt
+PostInstall.txt
+README.rdoc
+Rakefile
+lib/g_auto_completer.rb
+script/console
+script/destroy
+script/generate
+spec/g_auto_completer_spec.rb
+spec/spec.opts
+spec/spec_helper.rb
+tasks/rspec.rake
