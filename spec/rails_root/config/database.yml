@@ -1,0 +1,9 @@
+development: &db_config
+  adapter: sqlite3
+  dbfile: ":memory:"
+
+test:
+  <<: *db_config
+  
+production:
+  <<: *db_config

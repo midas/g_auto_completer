@@ -33,9 +33,7 @@ text box.
 
 (The MIT License)
 
-Copyright (c) 2009 C. Jason Harrelson (midas) (excluding the work of 
-Dylan Verheul, Dan G. Switzer, Anjesh Tuladhar, Jörn Zaefferer, Widi 
-Harsojo and Guillermo Rauch in th ejQuery plugins)
+Copyright (c) 2009 C. Jason Harrelson (midas)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

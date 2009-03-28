@@ -5,6 +5,14 @@ irb = RUBY_PLATFORM =~ /(:?mswin|mingw)/ ? 'irb.bat' : 'irb'
 libs =  " -r irb/completion"
 # Perhaps use a console_lib to store any extra methods I may want available in the cosole
 # libs << " -r #{File.dirname(__FILE__) + '/../lib/console_lib/console_logger.rb'}"
+
+# Try to load Rails environment for testing
+# require File.dirname(__FILE__) + '/../spec/rails_root/config/boot'
+# ENV['RAILS_ENV'] = 'test' if ENV['RAILS_ENV'].nil?
+# rails_root = File.dirname(__FILE__) + '/../spec/rails_root'
+# require "#{rails_root}/config/environment.rb"
+# require 'commands/console'
+
 libs <<  " -r #{File.dirname(__FILE__) + '/../lib/g_auto_completer.rb'}"
 puts "Loading g_auto_completer gem"
 exec "#{irb} #{libs} --simple-prompt"
